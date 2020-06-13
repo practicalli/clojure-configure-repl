@@ -1,7 +1,8 @@
 (ns practicalli.configure-repl
-  (:gen-class))
+  (:gen-class)
+  (:require [clojure.string :as string]))
 
 (defn -main
-  "I don't do a whole lot ... yet."
+  "A welcoming message which takes an optional number of arguments"
   [& args]
-  (println "Hello, World!"))
+  (println "Hello, World! " (string/join " " args )))
