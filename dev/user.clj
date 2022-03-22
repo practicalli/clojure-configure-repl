@@ -17,18 +17,19 @@
 
 
 
-;; Component life-cycle services
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 (comment
 
-  ;; Use the following code in user.clj
-  ;; to load and switch to the `dev` namespace
-  ;; which by convention is where services code is defined
-  (ns user
-    (:require [dev]))
-
-  (in-ns 'dev)
 
 
-  ) ;; End of comment block
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Component life-cycle services
+
+;; Practicalli Clojure Web Services has examples of using Integrant from a `user` namespace:
+;; https://practical.li/clojure-web-services/repl-driven-development/integrant-repl/
+
+;; End of Component life-cycle services
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
